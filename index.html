@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Contact Book</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="wrapper">
+            <div class="head-box">
+                <h1 class="site-title">Contact Book</h1>
+            </div>
+            <div class="body-box">
+                <div class="start-box">
+                    <h2 class="start-title">New Contact Form</h2>
+                    <form class="js-form" autocomplete="off" method="POST">
+                        <input class="user-name contact-inp" type="text" name="user_name" placeholder="Name">
+
+                        <input class="data-inp contact-inp" name="user_data" type="text" list="datalist" placeholder="Relationship">
+                        <datalist id="datalist">
+                            <option value="Father">
+                            <option value="Mother">
+                            <option value="Brother">
+                            <option value="Sister">
+                        </datalist>
+
+                        <input class="user-num contact-inp" type="tel" name="user_phone" placeholder="Number">
+
+                        <button class="btn" type="submit">Add contact</button>
+                    </form>
+                </div>
+                <div class="end-box">
+                    <h2 class="end-title">Contact</h2>
+                    <ul class="contact-list"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

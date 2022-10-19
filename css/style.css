@@ -1,0 +1,110 @@
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.body-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.site-title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.start-box {
+    width: 500px;
+}
+
+.js-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-inp {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 248, 189);
+    border-radius: 5px;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    font-weight: 700;
+}
+
+.contact-inp::placeholder {
+    color: black;
+    font-weight: 400;
+}
+
+.btn {
+    height: 30px;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.end-box {
+    width: 500px;
+}
+
+.end-title {
+    text-align: center;
+}
+
+.start-title {
+    font-size: 36px;
+}
+
+.end-title {
+    font-size: 36px;
+}
+
+.contact-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contact-item {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgb(255, 248, 189);
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.contact-text {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.contact-link {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-btn {
+    display: block;
+    margin: 0 auto;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
