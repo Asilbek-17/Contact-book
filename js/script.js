@@ -11,7 +11,7 @@ elForm.addEventListener("submit", function(evt){
     const newNameValue = elNameInp.value;
     const newDataValue = elDataInp.value;
     const newNumberValue = elNumberInp.value;
-    
+
     const newObject = {
         name: newNameValue, 
         relationship: newDataValue, 
@@ -54,7 +54,7 @@ elForm.addEventListener("submit", function(evt){
         elList.appendChild(newItem);
         
         for (var i = 0; i < 1; i++) {
-            newItem.addEventListener('click', () => {
+            newBtn.addEventListener('click', () => {
                 newItem.style.display = "none"
             })
         }

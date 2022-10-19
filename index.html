@@ -18,9 +18,9 @@
                 <div class="start-box">
                     <h2 class="start-title">New Contact Form</h2>
                     <form class="js-form" autocomplete="off" method="POST">
-                        <input class="user-name contact-inp" type="text" name="user_name" placeholder="Name">
+                        <input class="user-name contact-inp" type="text" name="user_name" placeholder="Name" minlength="2" required>
 
-                        <input class="data-inp contact-inp" name="user_data" type="text" list="datalist" placeholder="Relationship">
+                        <input class="data-inp contact-inp" name="user_data" type="text" list="datalist" placeholder="Relationship" minlength="2" required>
                         <datalist id="datalist">
                             <option value="Father">
                             <option value="Mother">
@@ -28,7 +28,7 @@
                             <option value="Sister">
                         </datalist>
 
-                        <input class="user-num contact-inp" type="tel" name="user_phone" placeholder="Number">
+                        <input class="user-num contact-inp" type="tel" name="user_phone" placeholder="Number" required>
 
                         <button class="btn" type="submit">Add contact</button>
                     </form>
